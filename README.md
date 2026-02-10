@@ -169,16 +169,17 @@ lerobot-train \
 ## ✅ Evaluation / Replay
 
 ```bash
-lerobot-record \
+lerobot-record  \
   --robot.type=piper_follower \
+  --robot.cameras="{laptop: {type: intelrealsense, serial_number_or_name: '152222072122', width: 640, height: 480, fps: 30}, left_wrist: {type: intelrealsense, serial_number_or_name: '153222071788', width: 640, height: 480, fps: 30}}" \
   --robot.id=black \
-  --robot.cameras="{
-    up: {type: opencv, index_or_path: /dev/video10, width: 640, height: 480, fps: 30}
-  }" \
   --display_data=false \
-  --dataset.repo_id=${HF_USER}/eval_piper \
-  --dataset.single_task="Put lego brick into the transparent box" \
-  --policy.path=${HF_USER}/my_policy
+  --dataset.repo_id=${HF_USER}/eval_piper_pick_toy_mini_10eps \
+  --dataset.single_task="Pick up the toy" \
+  --policy.path=${HF_USER}/piper_pick_toy_mini \
+  --teleop.type=piper_leader \
+  --teleop.id=blue \
+  --dataset.push_to_hub=false
 ```
 
 * 不指定 `teleop` 即为 **纯策略执行**
