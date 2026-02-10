@@ -45,8 +45,8 @@ It is a **hardware adaptation + engineering continuation** focused on:
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/WilbertYuan/lerobot-piper3.git
-cd lerobot-piper3
+git clone https://github.com/WilbertYuan/lerobot_piper3.git
+cd lerobot_piper3
 pip install -e .
 ```
 
