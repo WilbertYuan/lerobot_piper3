@@ -2,7 +2,7 @@
 
 **LeRobot × Piper Arm — Real-World Low-Cost Manipulation Stack**
 
-<img src="https://hackster.imgix.net/uploads/attachments/1711216/image_oknKDbrt1n.png?auto=compress%2Cformat&w=830&h=466.875&fit=min&dpr=2.625" width="60%" /><img src="https://media.licdn.com/dms/image/v2/D4D05AQERe2QXVLINxA/feedshare-thumbnail_720_1280/feedshare-thumbnail_720_1280/0/1730105448536?e=2147483647&v=beta&t=_BSbWckZMMLJERIcf1Z5vdm46C-lJ6rJexCbIwzzp1Q" width="19%" />
+<img src="https://hackster.imgix.net/uploads/attachments/1711216/image_oknKDbrt1n.png?auto=compress%2Cformat&w=830&h=466.875&fit=min&dpr=2.625" width="75.9%" /><img src="https://media.licdn.com/dms/image/v2/D4D05AQERe2QXVLINxA/feedshare-thumbnail_720_1280/feedshare-thumbnail_720_1280/0/1730105448536?e=2147483647&v=beta&t=_BSbWckZMMLJERIcf1Z5vdm46C-lJ6rJexCbIwzzp1Q" width="24%" />
 
 > **Native integration of AgileX Piper manipulators into the LeRobot v2 ecosystem.** > *Infrastructure as Code | Type-Safe Configuration | End-to-End Imitation Learning*
 
